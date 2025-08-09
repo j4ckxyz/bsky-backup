@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:plc:4hawmtgzjx3vclfyphbhfn7v",
+  "alsoKnownAs": [
+    "at://j4ck.xyz"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:plc:4hawmtgzjx3vclfyphbhfn7v#atproto",
+      "type": "Multikey",
+      "controller": "did:plc:4hawmtgzjx3vclfyphbhfn7v",
+      "publicKeyMultibase": "zQ3shkBx3JFKVTW5m8o8n9Hf3PuR4bSKLsrb7j6GE7Usm8JsV"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://jglypt.net"
+    }
+  ]
+}

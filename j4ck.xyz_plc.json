@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:4hawmtgzjx3vclfyphbhfn7v",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shkBx3JFKVTW5m8o8n9Hf3PuR4bSKLsrb7j6GE7Usm8JsV"
+  },
+  "rotationKeys": [
+    "did:key:zQ3shguBx59mcsdFBbAPzFTBetEKaiRoP1nUxGBZXNjdmHGaP",
+    "did:key:zQ3shtjccVznCdWA2djYJmorJjhL2joVbd3VW4u7fG7QWHTP2"
+  ],
+  "alsoKnownAs": [
+    "at://j4ck.xyz"
+  ],
+  "services": {
+    "atproto_pds": {
+      "type": "AtprotoPersonalDataServer",
+      "endpoint": "https://jglypt.net"
+    }
+  }
+}
